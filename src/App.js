@@ -14,15 +14,15 @@ import NotFound from "./components/NotFound";
 const App = () => {
   return (
     <div className='overflow-hidden'>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/product/:id' element={<ProductDetails />}></Route>
           <Route path='/*' element={<NotFound />}></Route>
         </Routes>
-        <Sidebar />
         <Footer />
+        <Sidebar />
       </BrowserRouter>
     </div>
   );
