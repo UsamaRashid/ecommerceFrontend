@@ -48,13 +48,13 @@ const Sidebar = () => {
           </div>
         </div>
         <Link
-          to={"/"}
+          to={"/cart"}
           className='bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium'
         >
           View Cart
         </Link>
         <Link
-          to={"/"}
+          to={""}
           className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
         >
           Checkout
