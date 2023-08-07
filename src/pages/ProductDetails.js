@@ -20,7 +20,7 @@ const ProductDetails = () => {
   }
   const { title, price, description, image } = product;
   return (
-    <section className='pt-32 pb-12 lg:py-32 h-screen flex items-center '>
+    <section className='pt-32 pb-12 lg:py-32  flex items-center '>
       <div className='container mx-auto'>
         {/* image */}
         <div className='flex flex-col lg:flex-row items-center'>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='bg-primary py-12 '>
+    <footer className='bg-primary py-12 max-h-screen'>
       <div className=' container mx-auto  '>
         <p className='text-white text-center'>
           Copyright © Ecommerce Shop 2023 All Rights Reserved
